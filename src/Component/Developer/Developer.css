@@ -1,6 +1,4 @@
 .card {
-  /*background-color: #eee;
-  */
   background-color: #fffffe;
   display: flex;
   flex-direction: column;
@@ -40,8 +38,7 @@
   -o-border-radius: 50%;
 }
 .table-title {
-  /* color: #475d5b; */
-  color: #a7a9be;
+  color: #80818f;
 }
 
 tr {

@@ -3,7 +3,6 @@ import Rating from 'react-rating';
 import './Developer.css';
 
 export const Developer = (props) => {
-  // console.log(props);
   const { img, name, country, rating, price, skills } = props.data;
 
   const [skill1, skill2] = skills;

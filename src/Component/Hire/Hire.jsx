@@ -2,7 +2,6 @@ import React from 'react';
 import './Hire.css';
 
 export const Hire = (props) => {
-  // console.log(props.data);
   const { data } = props;
 
   const totalCost = data.reduce((prev, curr) => prev + curr.price, 0);
