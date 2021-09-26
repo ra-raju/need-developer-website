@@ -43,9 +43,10 @@ export const Developer = (props) => {
       </div>
       <div className="btn">
         <button
-          className="hireBtn"
+          className="hireBtn "
           onClick={() => props.hireBtnHandler(props.data)}
         >
+          <span className="far fa-check-circle"></span>
           Hire Me
         </button>
       </div>
