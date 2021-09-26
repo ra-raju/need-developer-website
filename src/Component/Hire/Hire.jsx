@@ -11,11 +11,13 @@ export const Hire = (props) => {
         You hired <span className="length">{data.length}</span> people
       </h1>
       <p>
-        Your cost: <span className="total-cost">${totalCost}</span>
+        Your cost: <span className="total-cost">$ {totalCost}</span>
       </p>
       <p className="selected-people">Your selected people: </p>
       {data.map((developer) => (
-        <p>{developer.name}</p>
+        <p className="devp-name" key={developer.name}>
+          {developer.name}{' '}
+        </p>
       ))}
     </div>
   );

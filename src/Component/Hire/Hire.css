@@ -5,19 +5,29 @@
 
 p {
   margin-left: 35px;
-  padding: 5px 0;
-  font-size: 22px;
+  /* padding: 5px 0; */
+  font-size: 24px;
 }
 
 .selected-people {
   border-bottom: 1px solid gray;
-  margin: 0 30px;
+  font-weight: 600;
+}
+
+.devp-name {
+  color: chartreuse;
+  margin: 10px 30px;
 }
 
 .length,
 .total-cost {
   background-color: #ff8906;
   padding: 2px 10px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
 }
 
 .total-cost {

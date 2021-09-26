@@ -16,7 +16,6 @@ export const Container = () => {
   const hireBtnHandler = (hire) => {
     const selectArr = [...selected, hire];
     setSelected(selectArr);
-    console.log(selectArr);
   };
   return (
     <div className="container">
