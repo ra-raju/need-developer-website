@@ -25,5 +25,59 @@
     "rating": 4,
     "skills": ["C++", "Python"],
     "img": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/57df5d8e6aa5a676f0b2931324dfc1a4-1585491178181/be1304e3-91a0-40fd-9630-32e84313e613.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Aalian",
+    "country": "Nepal",
+    "price": 30,
+    "rating": 5,
+    "skills": ["Angular", "Vue"],
+    "img": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/2a23c21c3e54eefe93213653ed04d9db-1582405905281/6e3c6988-7cf8-4395-9f2c-ebfa022c4f02.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Md. Shoikot",
+    "country": "Bangladesh",
+    "price": 35,
+    "rating": 4,
+    "skills": ["Vue", "React"],
+    "img": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/profile/photos/3902998/original/jjjj175745-min.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Justinxyrel ",
+    "country": "Philippines",
+    "price": 25,
+    "rating": 4,
+    "skills": ["Laravel", "Php"],
+    "img": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/562da95c8809cc1fa2a32d0f6257b760-1618917090187/71c0ed61-880d-456f-8d01-e1a60eeab8f3.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Sabbir Rahman",
+    "country": "Bangladesh",
+    "price": 10,
+    "rating": 5,
+    "skills": ["Html", "Css"],
+    "img": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/44eb75b3f7367926d61075ba0dec91a9-1600079733929/270a7f2a-a0ea-4726-b516-a9bb4e12c56b.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Salman Sabbir",
+    "country": "India",
+    "price": 35,
+    "rating": 5,
+    "skills": ["React", "Django"],
+    "img": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/profile/photos/42934717/original/photo_0150360806geqyxf.jpg"
+  },
+  {
+    "id": 9,
+    "name": "M_aliumair",
+    "country": "China",
+    "price": 50,
+    "rating": 2,
+    "skills": [".Net", "C++"],
+    "img": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/b2e2d4d830f73687d1229a1151bb8de7-1602798921125/2a0030e1-966a-403d-a807-48db8263cbe9.jpg"
   }
 ]

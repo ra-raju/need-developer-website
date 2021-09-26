@@ -2,7 +2,7 @@ import React from 'react';
 import './Developer.css';
 
 export const Developer = (props) => {
-  console.log(props.data);
+  // console.log(props);
   const { img, name, country, rating, price, skills } = props.data;
 
   const [skill1, skill2] = skills;
@@ -42,7 +42,12 @@ export const Developer = (props) => {
         </table>
       </div>
       <div className="btn">
-        <button className="hireBtn">Hire Me</button>
+        <button
+          className="hireBtn"
+          onClick={() => props.hireBtnHandler(props.data)}
+        >
+          Hire Me
+        </button>
       </div>
     </div>
   );
