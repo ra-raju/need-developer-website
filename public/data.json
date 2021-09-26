@@ -21,7 +21,7 @@
     "id": 3,
     "name": "Mark Wood",
     "country": "Australia",
-    "price": 10,
+    "price": 40,
     "rating": 4,
     "skills": ["C++", "Python"],
     "img": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/57df5d8e6aa5a676f0b2931324dfc1a4-1585491178181/be1304e3-91a0-40fd-9630-32e84313e613.jpg"
@@ -57,7 +57,7 @@
     "id": 7,
     "name": "Sabbir Rahman",
     "country": "Bangladesh",
-    "price": 10,
+    "price": 65,
     "rating": 5,
     "skills": ["Html", "Css"],
     "img": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/44eb75b3f7367926d61075ba0dec91a9-1600079733929/270a7f2a-a0ea-4726-b516-a9bb4e12c56b.jpeg"
