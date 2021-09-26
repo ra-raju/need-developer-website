@@ -8,8 +8,16 @@ export const Hire = (props) => {
   const totalCost = data.reduce((prev, curr) => prev + curr.price, 0);
   return (
     <div className="hire">
-      <h1>Your hired {data.length} people</h1>
-      <h2>Your cost: ${totalCost}</h2>
+      <h1>
+        You hired <span className="length">{data.length}</span> people
+      </h1>
+      <p>
+        Your cost: <span className="total-cost">${totalCost}</span>
+      </p>
+      <p className="selected-people">Your selected people: </p>
+      {data.map((developer) => (
+        <p>{developer.name}</p>
+      ))}
     </div>
   );
 };

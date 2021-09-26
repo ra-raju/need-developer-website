@@ -1,4 +1,25 @@
 .hire {
   color: #fffffe;
-  text-align: center;
+  margin: 0 10px;
+}
+
+p {
+  margin-left: 35px;
+  padding: 5px 0;
+  font-size: 22px;
+}
+
+.selected-people {
+  border-bottom: 1px solid gray;
+  margin: 0 30px;
+}
+
+.length,
+.total-cost {
+  background-color: #ff8906;
+  padding: 2px 10px;
+}
+
+.total-cost {
+  font-weight: bold;
 }
