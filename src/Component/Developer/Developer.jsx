@@ -1,4 +1,5 @@
 import React from 'react';
+import Rating from 'react-rating';
 import './Developer.css';
 
 export const Developer = (props) => {
@@ -25,7 +26,14 @@ export const Developer = (props) => {
             </tr>
             <tr>
               <td className="table-title">Rating: </td>
-              <td className="table-value">{rating}</td>
+              <td className="table-value">
+                <Rating
+                  initialRating={rating}
+                  readonly
+                  emptySymbol="far fa-star rating"
+                  fullSymbol="fas fa-star rating"
+                />
+              </td>
             </tr>
             <tr>
               <td className="table-title">Hourly Rate : </td>
