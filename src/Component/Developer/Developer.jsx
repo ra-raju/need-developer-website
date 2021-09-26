@@ -28,7 +28,7 @@ export const Developer = (props) => {
               <td className="table-value">{rating}</td>
             </tr>
             <tr>
-              <td className="table-title">Price : </td>
+              <td className="table-title">Hourly Rate : </td>
               <td className="table-value">${price}</td>
             </tr>
             <tr>
